@@ -35,7 +35,5 @@ public class MirrorSumTest {
     }
 
     @Test(expected = NullPointerException.class)
-    public void isValidTest() {
-        m.AnswerArr(null);
-    }
+    public void isValidTest() { m.AnswerArr(null); }
 }
