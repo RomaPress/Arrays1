@@ -26,8 +26,6 @@ class IndexesSimpleNumbers {
                 count = 0;// простые числа не меньше 2
             }
         }
-
-
         int[] result = new int[finishLength];
         System.arraycopy(answer, 0, result, 0, finishLength);
         return result;
